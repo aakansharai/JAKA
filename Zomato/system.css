@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.top{
+    position: relative;
+    height: 70vh;
+    width: 98.8vw;
+    color: white;
+    background-image: url('italian-cuisine-gd5510a22e_1920.jpg');
+    background-repeat: no-repeat;
+    /* align-items: center; */
+}
+
+.navigationbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5vh;
+    font-family: 'Roboto', sans-serif;
+}
+.navigationbar p:hover{
+    cursor: pointer;
+    text-decoration: overline;
+    color: rgb(235, 188, 188);
+}
+
+.nav-left{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+
+.nav-right{
+    display: flex;
+    justify-content: space-around;
+    width: 18%;
+    margin-right: 10vh;
+}
+.content{
+    margin-top: 10vh;
+    text-align: center;
+    line-height: 6vh;
+}
+
+.content h1{
+    font-size: 80px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.content p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5vh;
+    font-size: 30px;
+}
+
+.selection-and-search{
+    border: 2px solid white;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 1vh 0 1vh 0;
+    border-radius: 7px;
+    margin-top: 5vh;
+    background-color: white;
+}
+
+#select-address-resturent{
+    border: 2px solid white;
+    background-color: white;
+}
+.search-input{
+    border: 2px solid white;
+    margin-left: 3vw;
+}
+
+/* Short menu */
+
+.down{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 86.8vw;
+    margin: 0 6vw 0 6vw;
+}
+.short-menu{
+    position: relative;
+    border: 1px solid grey;
+    width: 20%;
+    height: 250px;
+    color: rgb(7, 83, 150);
+    margin: 4vw 0 4vw 0;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.short-menu img{
+    /* position: absolute; */
+    height: 85%;
+    width: 100%;
+    border-radius: 15px 15px 0px 0;
+}
+.short-menu h3{
+    margin-top: 0.7vh;
+}
+.short-menu h3:hover{
+    cursor: pointer;
+}
